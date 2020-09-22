@@ -24,7 +24,7 @@ try{
 	
 	String user_nam=session.getAttribute("user_name").toString();
 	Class.forName("com.mysql.jdbc.Driver");
-	Connection c= DriverManager.getConnection("jdbc:mysql://localhost:3306/food_order","root","Sangeepl14@");
+	Connection c= DriverManager.getConnection("jdbc:mysql://localhost:3306/food_order","root","S14@");
 	Statement stat= c.createStatement();
 	String sql1="select contact from user where user_name='"+user_nam+"'";
 	ResultSet r= stat.executeQuery(sql1);
