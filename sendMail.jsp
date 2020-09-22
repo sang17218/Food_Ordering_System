@@ -8,7 +8,7 @@
     String to=(String)session.getAttribute("email");
 	
 	// Sender's email ID 
-	String from = "SAI@gmail.com";
+	String from = "*@gmail.com";
 	
 	final String username = "";
 	final String password = "";
