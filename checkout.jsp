@@ -39,7 +39,7 @@ int wallet;
 try{
 	String user_nam=session.getAttribute("user_name").toString();
 	Class.forName("com.mysql.jdbc.Driver");
-	Connection c= DriverManager.getConnection("jdbc:mysql://localhost:3306/food_order","root","Sangeepl14@");
+	Connection c= DriverManager.getConnection("jdbc:mysql://localhost:3306/food_order","root","S14@");
 	Statement s= c.createStatement();
      String res=session.getAttribute("res").toString();
 	String sql="select wallet from user where user_name='"+user_nam+"'";
