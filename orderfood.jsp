@@ -15,7 +15,7 @@
 //String user_name=session.getAttribute("user_name").toString();
 	try{
 		Class.forName("com.mysql.jdbc.Driver");
-		Connection c= DriverManager.getConnection("jdbc:mysql://localhost:3306/food_order","root","Sangeepl14@");
+		Connection c= DriverManager.getConnection("jdbc:mysql://localhost:3306/food_order","root","S14@");
 		Statement s= c.createStatement();
 
 		String sql="select name from restaurant";
