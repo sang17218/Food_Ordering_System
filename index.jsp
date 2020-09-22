@@ -28,7 +28,7 @@ if(str1!=null && str2!= null)
 
 	try{
 		Class.forName("com.mysql.jdbc.Driver");
-		Connection c= DriverManager.getConnection("jdbc:mysql://localhost:3306/food_order","root","Sangeepl14@");
+		Connection c= DriverManager.getConnection("jdbc:mysql://localhost:3306/food_order","root","S14@");
 		Statement s= c.createStatement();
 		//out.println("user="+str1+" and pass= "+str2);
 		String sql="select user_name from user where user_name='"+str1+"' and pass='"+str2+"'";
